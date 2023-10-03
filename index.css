@@ -29,16 +29,17 @@ body {
 
 .navbar .left .brand {
     font-family: edition;
-    font-size: 5em;
+    font-size: 7em;
 }
 
 .navbar .left span:hover {
     cursor: pointer;
+    color: rgba(0, 0, 0, 0.301);
 }
 
 .navbar .left .menu {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 0.8em;
+    font-size: 2em;
 
 }
 
@@ -80,7 +81,7 @@ body {
     background-color: #ffffff00;
 }
 
-.navbar .right .content .search:focus {
+.navbar .right .content .form:focus {
     outline: none;
     border-bottom: 1px solid #000000be;
     transition: 0.5s;
@@ -96,7 +97,7 @@ body {
 }
 
 .main {
-    height: 100vh;
+    height: 110vh;
     min-width: 1200px;
 }
 
@@ -139,7 +140,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 5em;
+    font-size: 6em;
     font-family: 'Bebas Neue', sans-serif;
 
 }
@@ -167,7 +168,7 @@ body {
 }
 
 .contacto h2 {
-    font-size: 24px;
+    font-size: 70px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -190,9 +191,20 @@ body {
 .contacto form .user input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: none;
     font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2em;
+}
+
+.contacto form .user input:focus {
+    border-bottom: 1px solid black;
+    font-family: 'Bebas Neue', sans-serif;
+    outline: none;
+    background-color: #ffffff00;
+}
+
+.contacto .title .info {
+    font-size: 1.5em;
 }
 
 .contacto form .text {
@@ -203,23 +215,29 @@ body {
     display: block;
     font-weight: bold;
     margin-bottom: 10px;
+    font-size: 1.2em;
+    
 }
 
 .contacto form .text textarea {
     width: 100%;
     height: 100px;
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2em;
+    
 }
+
 
 .contacto form input[type="submit"] {
     background-color: #000;
     color: #fff;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+    font-family: 'Bebas Neue', sans-serif;
 }
 
 ::-webkit-scrollbar {

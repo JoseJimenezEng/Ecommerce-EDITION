@@ -40,3 +40,12 @@
     
     
 // };
+AOS.init()
+let typed = new Typed('#typed', {
+    strings: ["la nueva moda", "la nueva vida", "E D I T I O N ^10000"],
+    backSpeed: 70, typeSpeed: 70
+    , loop: true,
+    loopCount: Infinity,
+})
+
+export {typed}
