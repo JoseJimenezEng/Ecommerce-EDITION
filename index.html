@@ -17,10 +17,10 @@
             </div>
             <div class="menu">
                 <div class="men">
-                    <span>Hombres</span>
+                    <span onclick="transxh()">Hombres</span>
                 </div>
                 <div class="women">
-                    <span>Mujeres</span>
+                    <span onclick="transxm()">Mujeres</span>
                 </div>
             </div>
         </div>
@@ -49,33 +49,35 @@
     <footer class="contacto">
         <div class="title" data-aos="fade-right" data-aos-offset="20">
             <h2>Formulario de Contacto</h2>
-            <div class="info"><p>Queremos saber todo lo que piensas de nostros en cualquier momento.</p>
+            <div class="info">
+                <p>Queremos saber todo lo que piensas de nostros en cualquier momento.</p>
                 <p>No dudes en contactaros.</p>
             </div>
         </div>
-        
-       <div class="msj"data-aos="fade-left" data-aos-offset="20">
-        <form  action="/submit_form" method="post">
-            <div class="user">
-                <input class="form " id="searchright" type="search" name="name" placeholder="Nombre">
-                <input class="form " id="searchright" type="search" name="subject" placeholder="Asunto">
-                <input class="form " id="searchright" type="search" name="email" placeholder="Correo">
-            </div>
 
-            <div class="text">
-                <label for="message">Mensaje:</label>
-                <textarea id="message" name="message" rows="4" cols="50"></textarea>
-            </div>
+        <div class="msj" data-aos="fade-left" data-aos-offset="20">
+            <form action="/submit_form" method="post">
+                <div class="user">
+                    <input class="form " id="searchright" type="search" name="name" placeholder="Nombre">
+                    <input class="form " id="searchright" type="search" name="subject" placeholder="Asunto">
+                    <input class="form " id="searchright" type="search" name="email" placeholder="Correo">
+                </div>
 
-            <input type="submit" value="Enviar">
-        </form>
-       </div>
+                <div class="text">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" cols="50"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
     </footer>
-
+    <script type="module" src="./modules.js"></script>
+    <script src="./index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 </body>
-<script type="module" src="./index.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
 
 
 </html>
